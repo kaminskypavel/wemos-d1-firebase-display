@@ -1,4 +1,14 @@
 # wemos-d1-firebase-display
+## Demo
+a remote display controlled with ESP82666  
+**Click on the images to see a n HQ demo**
+* <a href="https://youtu.be/Nbpn9xXA4CQ">connects to WiFi and Firebase on boot  
+  ![boot](assets/boot.gif)</a>
+
+* <a href="https://youtu.be/q1TS-U0I3e0">controlled by a web interface  
+  ![boot](assets/demo.gif)
+  </a>
+
 
 ## Motivation
 This is how me and my wife communicate these days 😁🤷‍.
