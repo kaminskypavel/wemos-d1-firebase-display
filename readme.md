@@ -21,11 +21,14 @@
   }
 }
 ```
-
 ### Gotchas
 * if you're getting 
   * `Firebase.h:26:25: fatal error: ArduinoJson.h: No such file or directory`" 
   * `FirebaseObject.h:109:21: error: 'StaticJsonBuffer' was not declared in this scope`   
 * Arduino Studio > Sketch > Include Library > **make sure ArduinoJson is version 5.13.2**
 
+## Editor 
 
+if you're familiar with programming and used to have nice tools, maybe arduino IDE is not for you
+I advise to use VSCode + Arduino extension. remember to configure the IDE as below
+![vscode config](assets/vscode-board.png)
