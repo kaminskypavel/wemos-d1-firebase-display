@@ -4,9 +4,9 @@ A remote display controlled with ESP82666
   
 **Click on the images to see a n HQ demo**
 
-|  <a href="https://youtu.be/Nbpn9xXA4CQ">Boot</a> |<a href="https://youtu.be/Nbpn9xXA4CQ">Demo</a> |
+|  <a href="https://youtu.be/Nbpn9xXA4CQ">Boot</a> |<a href="https://youtu.be/q1TS-U0I3e0">Demo</a> |
 | ------------- | ------------- |
-| <a href="https://youtu.be/q1TS-U0I3e0"><img height="300" src="assets/boot.gif"/></a>  |  <a href="https://youtu.be/q1TS-U0I3e0"><img   height="300" src="assets/demo.gif"/></a>   |
+| <a href="https://youtu.be/Nbpn9xXA4CQ"><img height="300" src="assets/boot.gif"/></a>  |  <a href="https://youtu.be/q1TS-U0I3e0"><img   height="300" src="assets/demo.gif"/></a>   |
 
 
 ## Motivation
