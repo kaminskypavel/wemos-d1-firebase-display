@@ -1,2 +1,3 @@
 src/wemos/config.h
 node_modules
+.firebase

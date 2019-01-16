@@ -7,24 +7,16 @@
 * Arduino Studio > Sketch > Include Library > Add .ZIP Library
 
 ### Firebase
-* create new project
-* navigate to `https://console.firebase.google.com/u/0/project/<Project Name>/settings/general/`
-* copy "Database secrets" from `https://console.firebase.google.com/u/0/project/<Project Name>/settings/serviceaccounts/databasesecrets`
-(Database secrets are currently deprecated and use a legacy Firebase token generator. Update your source code with the Firebase Admin SDK.)
-
-* make sure your firebase rules are set to 
-```javascript
-{
-  "rules": {
-    ".read": true,
-    ".write": true
-  }
-}
-```
-
+* create new project (change the name of the project in all the following)
+* navigate to [project settings](https://console.firebase.google.com/u/0/project/wemos-d1-firebase-display/settings/general)
+* grab the [database secrets](https://console.firebase.google.com/u/0/project/wemos-d1-firebase-display/settings/serviceaccounts/databasesecrets)  
+warning : "database secrets" are currently deprecated and use a legacy Firebase token generator. Update your source code with the Firebase Admin SDK.
+* make sure you have [firebase-cli](https://github.com/firebase/firebase-tools) (`npm install -g firebase-tools`)
+  
 ### Configuration
-* rename `src/config.sample.h` to `src/config.h` and add your values
-* 
+* rename `src/wemos/config.sample.h` to `src/wemos/config.h` and add your values
+* change "wemos-d1-firebase-display" in `src/web/.firebaserc` to be your firebase project name
+
 ### Gotchas
 * if you're getting 
   * `Firebase.h:26:25: fatal error: ArduinoJson.h: No such file or directory`" 
@@ -33,7 +25,7 @@
 
 ## Run
 * upload `src/wemos/main.display.firebase.ino` to your ESP8266 
-* deploy the firebase admin webpage from `firebase deploy` inside `src/web`
+* deploy the firebase admin webpage `$ src/web> firebase deploy`
 * open the web interface (https://wemos-d1-firebase-display.firebaseapp.com/)
 
 ## Editor 
