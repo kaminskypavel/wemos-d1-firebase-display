@@ -4,6 +4,9 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 #include "config.h"
+  
+const char* names[]=  {"James", "Michael", "Jane", "Michelle"};
+int randNamesIdx = 0;
 
 void setup() {
   Serial.begin(115200);
@@ -24,8 +27,12 @@ void setup() {
 }
 
 void loop() {
+  // turn on the led
+  digitalWrite(LED_BUILTIN, HIGH);
+
   // set string value
-  Firebase.setString("message", "hello world" + rand());
+  randNamesIdx  = rand()%sizeof(names) / sizeof(names[0]);
+  Firebase.setString("message", "hello world, " + String(names[randNamesIdx]));
   
   // handle error
   if (Firebase.failed()) {
@@ -33,16 +40,14 @@ void loop() {
       Serial.println(Firebase.error());  
       return;
   }
-  
-  // turn on the led
-  digitalWrite(LED_BUILTIN, HIGH);
   delay(2000);
+
+  // turn off the led
+  digitalWrite(LED_BUILTIN, LOW);
 
   // get value 
   Serial.print("reading from firebase: ");
   Serial.println(Firebase.getString("message"));
 
-  // turn off the led
-  digitalWrite(LED_BUILTIN, LOW);
   delay(2000);
 }
