@@ -1,0 +1,5 @@
+// Set these to run example.
+#define FIREBASE_HOST "FIREBASE DB URL"
+#define FIREBASE_AUTH "FIREBASE DB TOKEN"
+#define WIFI_SSID "WIFI NAME"
+#define WIFI_PASSWORD "WIFI PASSWORD"
