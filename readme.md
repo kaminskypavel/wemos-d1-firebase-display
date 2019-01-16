@@ -1,5 +1,13 @@
 # wemos-d1-firebase-display
 
+
+## Hardware 
+<div align="center">
+<img  width="150" height="150"  src="assets/wemos.png">Wemos</img>
+<img  width="150" height="150"  src="assets/oled.png"> OLED 0.66'' (64x48) 
+</div>
+
+
 ## Installation
 
 ### Arduino IDE
