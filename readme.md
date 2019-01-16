@@ -1,9 +1,14 @@
 # wemos-d1-firebase-display
 
+## Motivation
+This is how me and my wife communicate these days 😁🤷‍.
+
+My friend [Uri Shaked](https://github.com/urish/) introduced me to esp8266 and it's been almost 10 years since I've written C/C++/Embeddedd. so why not?
+
 
 ## Hardware 
 <div align="center">
-<img  width="150" height="150"  src="assets/wemos.png">Wemos</img>
+<img  width="150" height="150"  src="assets/wemos.png">Wemos D1 Mini</img>
 <img  width="150" height="150"  src="assets/oled.jpg"> OLED 0.66'' (64x48) 
 </div>
 
@@ -37,6 +42,6 @@ warning : "database secrets" are currently deprecated and use a legacy Firebase 
 * open the web interface (https://wemos-d1-firebase-display.firebaseapp.com/)
 
 ## Editor 
-if you're familiar with programming and used to have nice tools, maybe arduino IDE is not for you
+* if you're familiar with programming and used to have nice tools, maybe arduino IDE is not for you
 I advise to use VSCode + Arduino extension. remember to configure the IDE as below
 ![vscode config](assets/vscode-board.png)
