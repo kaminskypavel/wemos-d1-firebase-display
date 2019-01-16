@@ -31,8 +31,12 @@
   * `FirebaseObject.h:109:21: error: 'StaticJsonBuffer' was not declared in this scope`   
 * Arduino Studio > Sketch > Include Library > **make sure ArduinoJson is version 5.13.2**
 
-## Editor 
+## Run
+* upload `src/wemos/main.display.firebase.ino` to your ESP8266 
+* deploy the firebase admin webpage from `firebase deploy` inside `src/web`
+* open the web interface (https://wemos-d1-firebase-display.firebaseapp.com/)
 
+## Editor 
 if you're familiar with programming and used to have nice tools, maybe arduino IDE is not for you
 I advise to use VSCode + Arduino extension. remember to configure the IDE as below
 ![vscode config](assets/vscode-board.png)
