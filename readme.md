@@ -21,6 +21,10 @@
   }
 }
 ```
+
+### Configuration
+* rename `src/config.sample.h` to `src/config.h` and add your values
+* 
 ### Gotchas
 * if you're getting 
   * `Firebase.h:26:25: fatal error: ArduinoJson.h: No such file or directory`" 
