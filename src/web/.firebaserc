@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "wemos-d1-firebase-display"
+  }
+}
