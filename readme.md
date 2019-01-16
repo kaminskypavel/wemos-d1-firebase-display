@@ -4,7 +4,7 @@
 ## Hardware 
 <div align="center">
 <img  width="150" height="150"  src="assets/wemos.png">Wemos</img>
-<img  width="150" height="150"  src="assets/oled.png"> OLED 0.66'' (64x48) 
+<img  width="150" height="150"  src="assets/oled.jpg"> OLED 0.66'' (64x48) 
 </div>
 
 
